@@ -1,0 +1,105 @@
+.container {
+    width: 100%;
+    display: flex;
+    gap: 50px;
+    margin-top: 20px;
+}
+
+
+.img {
+    margin-left: 10px;
+}
+
+.img img {
+
+    width: 250px;
+    height: 250px;
+}
+
+.details {
+    width: 100%;
+    padding: 0 20px;
+}
+
+.details h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.details p {
+    text-align: justify;
+    font-size: 15px;
+}
+
+.details .buy {
+    margin-left: auto;
+    color: white;
+    background-color: var(--light-Color);
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.details .buy:hover {
+    background-color: var(--main-Color);
+}
+
+
+.count {
+    width: 150px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+
+}
+
+.count span {
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+}
+
+.count button {
+    font-size: 17px;
+    width: 75px;
+    height: 30px;
+    color: var(--main-Color);
+    background-color: #eee;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.count button:hover {
+    background-color: var(--light-Color);
+    color: white;
+}
+
+.rules {
+    width: 100%;
+}
+
+.rules li {
+    width: 320px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.rules li span {
+    margin-left: 5px;
+}
+
+@media(max-width:768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .rules li {
+        width: 100%;
+    }
+}

@@ -1,0 +1,32 @@
+.search {
+    position: relative;
+    width: 30%;
+}
+
+.search input {
+    width: 100%;
+    padding: 10px 15px;
+    padding-right: 25px;
+    border: 1px solid #eee;
+    background-color: #eee;
+    border-radius: 99999px;
+    transition: 0.3s;
+}
+
+.search input::placeholder {
+    font-weight: 500;
+    color: gray;
+}
+
+.icon {
+    position: absolute;
+    right: 10px;
+    top: 30%;
+}
+
+
+@media(max-width:530px) {
+    .search {
+        width: 100%;
+    }
+}

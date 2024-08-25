@@ -1,0 +1,44 @@
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+
+}
+
+
+.img2 {
+    width: 100%;
+    height: 55%;
+    object-fit: cover;
+    object-position: center;
+
+}
+
+.img2 img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    background-color: #eee;
+}
+
+.iconCon {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.cards button {
+    margin-left: auto;
+    color: white;
+    background-color: var(--light-Color);
+    cursor: pointer;
+}
+
+.cards button:hover {
+    background-color: var(--main-Color);
+}

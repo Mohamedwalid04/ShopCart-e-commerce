@@ -1,0 +1,15 @@
+.SideBar {
+    height: fit-content;
+    width: 15%;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    position: sticky;
+    top: 0;
+}
+
+@media(max-width:425px) {
+    .SideBar {
+        display: none;
+    }
+}

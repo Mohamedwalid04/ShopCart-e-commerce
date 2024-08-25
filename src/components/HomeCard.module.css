@@ -1,0 +1,30 @@
+.card {
+    width: 200px;
+    height: 250px;
+    padding: 15px;
+    border-radius: 5px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    transition: 0.3s;
+    animation: move 0.5s ease-in;
+    text-align: center;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+@keyframes move {
+    from {
+        opacity: 0;
+        transform: translateY(100px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

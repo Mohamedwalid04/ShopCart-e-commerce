@@ -1,0 +1,27 @@
+.Card {
+    padding: 8px;
+    border-radius: 10px;
+    box-shadow: 0 0 7px #ddd;
+    position: relative;
+    animation: move 0.5s ease-in;
+    transition: 0.2s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Card:hover {
+    transform: scale(1.05);
+}
+
+@keyframes move {
+    from {
+        opacity: 0;
+        transform: translateY(100px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
